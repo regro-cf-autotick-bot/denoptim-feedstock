@@ -1,4 +1,4 @@
-{% set version = "3.2.1" %}
+{% set version = "3.2.2" %}
 {% set openjdk_version = "11.0.*" %}
 
 package:
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://github.com/denoptim-project/DENOPTIM/archive/refs/tags/v{{ version }}.tar.gz
-  sha256: d412e39bef2174cc45dc8bdd2fc3ac742da959f404126c0820e95ff4ba0018ce 
+  sha256: 4c6944e5e0caacae9e8c5987e954d5d64f17b244aa5d4f458c3249761ceb3947
 
 build:
   number: 0
@@ -28,11 +28,11 @@ test:
 about:
   home: https://github.com/denoptim-project/DENOPTIM
   license: AGPL-3.0-only AND OTHER
-  license_file: 
-   - COPYING
-   - licenses/THIRD-PARTY.txt
-   - licenses/dependencies/
-  summary: 'Package for de novo design and virtual screening of functional molecules of any kind.'
+  license_file:
+    - COPYING
+    - licenses/THIRD-PARTY.txt
+    - licenses/dependencies/
+  summary: Package for de novo design and virtual screening of functional molecules of any kind.
   description: Package for de novo design and virtual screening of functional molecules of any kind.
   dev_url: https://github.com/denoptim-project/DENOPTIM
   doc_url: https://github.com/denoptim-project/DENOPTIM

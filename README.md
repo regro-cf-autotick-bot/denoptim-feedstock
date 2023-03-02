@@ -1,11 +1,11 @@
-About denoptim
-==============
+About denoptim-feedstock
+========================
+
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/denoptim-feedstock/blob/main/LICENSE.txt)
 
 Home: https://github.com/denoptim-project/DENOPTIM
 
 Package license: AGPL-3.0-only AND OTHER
-
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/denoptim-feedstock/blob/main/LICENSE.txt)
 
 Summary: Package for de novo design and virtual screening of functional molecules of any kind.
 
